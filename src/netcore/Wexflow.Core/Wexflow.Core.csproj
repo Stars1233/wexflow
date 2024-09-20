@@ -16,7 +16,7 @@
     <TargetFramework>net8.0</TargetFramework>
 	<DebugType>Full</DebugType>
     <Platforms>AnyCPU;x64;x86</Platforms>
-    <Version>8.2.0</Version>
+    <Version>8.4.0</Version>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
@@ -61,7 +61,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="log4net" Version="2.0.17" />
+    <PackageReference Include="log4net" Version="3.0.0" />
     <PackageReference Include="Quartz" Version="3.13.0" />
     <PackageReference Include="Quartz.Serialization.Json" Version="3.13.0" />
   </ItemGroup>

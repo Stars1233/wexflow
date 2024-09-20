@@ -16,7 +16,7 @@
     <TargetFramework>net8.0</TargetFramework>
 	<DebugType>Full</DebugType>
     <Platforms>AnyCPU;x64;x86</Platforms> 
-    <Version>8.2.0</Version>
+    <Version>8.4.0</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -44,7 +44,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.29.0" />
   </ItemGroup>
 
   <ItemGroup>
